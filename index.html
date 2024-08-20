@@ -23,7 +23,7 @@
       .font-family {
         font-family: "Poppins", sans-serif;
       }
-      .hide{
+      .hide {
         display: none;
       }
     </style>
@@ -191,9 +191,11 @@
     <main class="md:container mx-auto">
       <section class="my-24">
         <h1 class="font-bold text-5xl text-center mb-10">Latest News</h1>
-   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-         <!-- card-1-->
-         <div class="card card-compact bg-base-100 w-96 shadow-xl">
+        <div
+          class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 place-items-center"
+        >
+          <!-- card-1-->
+          <div class="card card-compact bg-base-100 w-96 shadow-xl">
             <figure>
               <img src="images/others/latest1.png" />
             </figure>
@@ -204,7 +206,9 @@
                 fermentum amet faucibus sed id nisi lectus at.
               </p>
               <div class="card-actions">
-                <button class="btn bg-bike-primary text-white">Read More</button>
+                <button class="btn bg-bike-primary text-white">
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -220,7 +224,11 @@
                 fermentum amet faucibus sed id nisi lectus at.
               </p>
               <div class="card-actions">
-                <button class="btn border-bike-primary text-bike-primary bg-white">Read More</button>
+                <button
+                  class="btn border-bike-primary text-bike-primary bg-white"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -236,12 +244,75 @@
                 fermentum amet faucibus sed id nisi lectus at.
               </p>
               <div class="card-actions">
-                <button class="btn border-bike-primary text-bike-primary bg-white">Read More</button>
-
+                <button
+                  class="btn border-bike-primary text-bike-primary bg-white"
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
-   </div>
+        </div>
+      </section>
+      <!-- quaray-section -->
+      <section class="my-52">
+        <h1 class="font-bold text-5xl text-center mb-12">
+          Happy <span class="text-bike-primary">Happy Clients says</span>
+        </h1>
+        <!-- Hero-section -->
+        <div>
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img src="images/others/faq.png "
+              class="max-w-md rounded-lg shadow-2xl" />
+              <div class="space-y-10">
+                <div class="collapse collapse-arrow bg-base-200 border border-blue-100">
+                  <input type="radio" name="my-accordion-2" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">
+                    What are the most important things I should know about
+                    riding a bike?
+                  </div>
+                  <div class="collapse-content">
+                    <p>
+                      Safety First! Always obey the rules of the road. Obey all
+                      traffic signals, signs, and laws. Get in the mindset of
+                      “driving” your bike—not just “riding” your bike. This will
+                      help you be a more focused and legally compliant bike
+                      rider.
+                    </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200 border border-blue-100">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">
+                    How can I tell if my helmet is old and I need a new one?
+                  </div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200 border border-blue-100">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">
+                    My bike has been in storage is it safe to ride?
+                  </div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow bg-base-200 border border-blue-100">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">
+                    What rules should I follow when riding my bike?
+                  </div>
+                  <div class="collapse-content border">
+                    <p>hello</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   </body>
